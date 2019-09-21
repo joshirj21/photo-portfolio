@@ -1,5 +1,9 @@
+body{
+    height: 625px;
+}
 .navbar{
-    background: black;
+    position: relative;
+    z-index: 9999;
 }
 .toggler div{
     height: 3px;
@@ -22,4 +26,53 @@
 }
 .toggler{
     display: inline-block;
+}
+.outer{
+    background: url("https://madsparrow.me/emily/assets/images/2.jpg");
+    background-size: cover;
+    background-position-y:-175px;
+    top: -76px;
+    position: relative;
+    height: 625px;
+    z-index: 9;
+}
+.inner{ 
+    position: relative;
+    height: 625px;
+    background: linear-gradient(to bottom, black 0, transparent 50%, transparent 63%, rgba(0, 0, 0, 1) 100%);
+    opacity: 0.4;
+    top: -701px;
+    z-index: 99;
+}
+.expand{
+    position: relative;
+    z-index: 999;
+    background:#151515;
+    height: 0%;
+    width: 100%;
+    overflow: hidden;
+    top: -717px;
+}
+.col-2 p{
+    color: #555555;
+    font-size: 16px;
+}
+.col-2 h1{
+    color: white;
+    font-size: 28px;
+}
+.swiper{
+    position: relative;
+    top: 300px;
+}
+.swiper div{
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+}
+.swiper-content{
+    display: inline-block;
+    height: 6px;
+    border-top: 1px solid white;
+    width: 50px;
 }

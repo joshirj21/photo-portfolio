@@ -182,3 +182,23 @@ body{
        padding-top: 100px;
    } 
   }
+  @media only screen and (max-width: 805px) {
+    .toggler-info{
+        display: none;
+    }
+    .toggler-header{
+        margin-top: 26px;
+        color: white;
+        font-size: 22px;
+    }
+   .toggler-content{
+       padding-top: 100px;
+   } 
+  }
+  @media only screen and (max-width: 513px) {
+    .image-info{
+        top: 385px;
+        overflow: hidden;
+        position: relative;
+    } 
+}

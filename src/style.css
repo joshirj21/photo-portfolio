@@ -23,6 +23,7 @@ body{
 .expander{
     background: none;
     border: none;
+    cursor: pointer;
 }
 .expander span{
     color: white;
@@ -54,7 +55,7 @@ body{
     height: 0%;
     width: 100%;
     overflow: hidden;
-    top: -717px;
+    top: -1330px;
 }
 .col-2 p{
     color: #555555;
@@ -158,8 +159,12 @@ body{
         font-family: 'Yantramanav', sans-serif;
         font-weight: 900;
         color: white;
-        font-size: 44px;
+        font-size: 40px;
         line-height: 3rem;
     }
-    
+    .image-info{
+        top: 430px;
+        overflow: hidden;
+        position: relative;
+    }
   }

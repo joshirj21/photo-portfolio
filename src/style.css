@@ -1,3 +1,6 @@
+html{
+    width: 100%;
+}
 body{
     height: 625px;
 }
@@ -63,7 +66,7 @@ body{
 }
 .swiper{
     position: relative;
-    top: 300px;
+    top: 285px;
 }
 .swiper div{
     color: white;
@@ -75,4 +78,44 @@ body{
     height: 6px;
     border-top: 1px solid white;
     width: 50px;
+}
+#heading{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 94px;
+    line-height: 6rem;
+}
+.image-info{
+    top: 335px;
+    overflow: hidden;
+    position: relative;
+}
+#image-link{
+    color: red;
+    font-family: 'Yantramanav', sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#scroll-link{
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    opacity: 0.7;
+    letter-spacing: 0.1rem;
+}
+#info-swiper{
+        display: inline-block;
+        height: 6px;
+        border-top: 1px solid red;
+        width: 50px;
+}
+.fas.fa-arrows-alt-v{
+    color: white;
+    opacity: 0.7;
+    font-size: 25px;
 }

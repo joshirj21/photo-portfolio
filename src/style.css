@@ -31,9 +31,9 @@ body{
     display: inline-block;
 }
 .outer{
-    background: url("https://madsparrow.me/emily/assets/images/2.jpg");
+    background: url("https://madsparrow.me/emily/assets/images/4.jpg");
     background-size: cover;
-    background-position-y:-175px;
+    background-position-y:bottom;
     top: -76px;
     position: relative;
     height: 625px;
@@ -119,3 +119,47 @@ body{
     opacity: 0.7;
     font-size: 25px;
 }
+@media only screen and (min-width: 1080px) {
+    .outer{
+        background: url("https://madsparrow.me/emily/assets/images/4.jpg");
+        background-size: cover;
+        background-position-y:-130px;
+        top: -76px;
+        position: relative;
+        height: 625px;
+        z-index: 9;
+    }
+  }
+  @media only screen and (max-width: 1140px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 74px;
+        line-height: 6rem;
+    }
+  }
+  @media only screen and (max-width: 893px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 54px;
+        line-height: 4.5rem;
+    }
+    .image-info{
+        top: 400px;
+        overflow: hidden;
+        position: relative;
+    }
+  }
+  @media only screen and (max-width: 683px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 44px;
+        line-height: 3rem;
+    }
+    
+  }

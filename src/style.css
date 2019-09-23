@@ -6,7 +6,7 @@ body{
 }
 .navbar{
     position: relative;
-    z-index: 9999;
+    z-index: 99999;
 }
 .toggler div{
     height: 3px;
@@ -31,8 +31,13 @@ body{
 .toggler{
     display: inline-block;
 }
+.content{
+    position: relative;
+    top: -1326px;
+    z-index: 999;
+}
 .outer{
-    background: url("https://madsparrow.me/emily/assets/images/4.jpg");
+    background: url("https://madsparrow.me/emily/assets/images/2.jpg");
     background-size: cover;
     background-position-y:bottom;
     top: -76px;
@@ -50,12 +55,12 @@ body{
 }
 .expand{
     position: relative;
-    z-index: 999;
+    z-index: 9999;
     background:#151515;
     height: 0%;
     width: 100%;
     overflow: hidden;
-    top: -1326px;
+    top: -1609px;
 }
 .toggler-header{
     margin-top: 30px;
@@ -79,7 +84,7 @@ body{
     display: inline-block;
     height: 6px;
     border-top: 1px solid white;
-    width: 50px;
+    width: 10%;
 }
 #heading{
     font-family: 'Yantramanav', sans-serif;
@@ -121,9 +126,18 @@ body{
     opacity: 0.7;
     font-size: 25px;
 }
+@media only screen and (max-width: 1140px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 74px;
+        line-height: 6rem;
+    }
+  }
 @media only screen and (min-width: 1080px) {
     .outer{
-        background: url("https://madsparrow.me/emily/assets/images/4.jpg");
+        background: url("https://madsparrow.me/emily/assets/images/2.jpg");
         background-size: cover;
         background-position-y:-130px;
         top: -76px;
@@ -132,14 +146,16 @@ body{
         z-index: 9;
     }
   }
-  @media only screen and (max-width: 1140px) {
-    #heading{
-        font-family: 'Yantramanav', sans-serif;
-        font-weight: 900;
-        color: white;
-        font-size: 74px;
-        line-height: 6rem;
-    }
+  @media only screen and (max-width: 908px) {
+    .expand{
+        position: relative;
+        z-index: 9999;
+        background:#151515;
+        height: 0%;
+        width: 100%;
+        overflow: hidden;
+        top: -1809px;
+    } 
   }
   @media only screen and (max-width: 893px) {
     #heading{
@@ -155,6 +171,20 @@ body{
         position: relative;
     }
   }
+  @media only screen and (max-width: 805px) {
+    .toggler-info{
+        display: none;
+    }
+    .toggler-header{
+        margin-top: 26px;
+        color: white;
+        font-size: 22px;
+    }
+   .toggler-content{
+       padding-top: 100px;
+
+   } 
+  }
   @media only screen and (max-width: 683px) {
     #heading{
         font-family: 'Yantramanav', sans-serif;
@@ -168,32 +198,6 @@ body{
         overflow: hidden;
         position: relative;
     }
-  }
-  @media only screen and (max-width: 805px) {
-    .toggler-info{
-        display: none;
-    }
-    .toggler-header{
-        margin-top: 26px;
-        color: white;
-        font-size: 22px;
-    }
-   .toggler-content{
-       padding-top: 100px;
-   } 
-  }
-  @media only screen and (max-width: 805px) {
-    .toggler-info{
-        display: none;
-    }
-    .toggler-header{
-        margin-top: 26px;
-        color: white;
-        font-size: 22px;
-    }
-   .toggler-content{
-       padding-top: 100px;
-   } 
   }
   @media only screen and (max-width: 513px) {
     .image-info{

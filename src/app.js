@@ -1,33 +1,41 @@
-// window.addEventListener("load", () => {
-//     var outerImage = document.querySelector(".outer-image")
-//     console.log(outerImage)
-// anime({
-//     targets: outerImage,
-//     scale: 0.99,
-//     duration: 2500
-//     // easing: 'easeInOutExpo'
-// });
-// })
+let togglerFlag = false;
 
 var navbarToggler = document.querySelector(".expander,.expander *");
 
 navbarToggler.addEventListener("click", animeToggler)
+
+
 function animeToggler() {
     var collapser = document.querySelector(".expand")
-    if (collapser.style.height === "" || collapser.style.height === "0%") {
+    if (!togglerFlag && !running) {
         anime({
             targets: collapser,
             direction: 'normal',
-            easing: 'easeInOutExpo',
-            height: ['0%', '100%']
+            easing: 'linear',
+            height: ['0%', '100%'],
+            begin: function () {
+                running = true;
+            },
+            complete: function () {
+                togglerFlag = true;
+                running = false;
+            }
         });
     }
-    else {
+    else if (togglerFlag && !running) {
         anime({
             targets: collapser,
             direction: 'normal',
-            easing: 'easeInOutExpo',
-            height: [collapser.style.height, '0%']
+            easing: 'linear',
+            height: [collapser.style.height, '0%'],
+            begin: function () {
+                running = true;
+            },
+            complete: function () {
+                togglerFlag = false;
+                running = false;
+            }
         });
     }
 }
+

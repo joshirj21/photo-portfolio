@@ -7,6 +7,7 @@ body{
 .navbar{
     position: relative;
     z-index: 99999;
+    padding-top: 8px;
 }
 .toggler div{
     height: 3px;
@@ -126,16 +127,7 @@ body{
     opacity: 0.7;
     font-size: 25px;
 }
-@media only screen and (max-width: 1140px) {
-    #heading{
-        font-family: 'Yantramanav', sans-serif;
-        font-weight: 900;
-        color: white;
-        font-size: 74px;
-        line-height: 6rem;
-    }
-  }
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1142px) {
     .outer{
         background: url("https://madsparrow.me/emily/assets/images/2.jpg");
         background-size: cover;
@@ -145,7 +137,240 @@ body{
         height: 625px;
         z-index: 9;
     }
+}
+@media only screen and (max-width: 1142px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 84px;
+        line-height: 5.5rem;
+    }
+    .image-info{
+        top: 350px;
+        overflow: hidden;
+        position: relative;
+    }
+    .expand{ 
+        position: relative;
+        z-index: 9999;
+        background:#151515;
+        height: 0%;
+        width: 100%;
+        overflow: hidden;
+        top: -1600px;
+    }
+}
+@media only screen and (max-width: 1025px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 74px;
+        line-height: 5rem;
+    }
+    .image-info{
+        top: 365px;
+        overflow: hidden;
+        position: relative;
+    }
+    #image-link{
+        color: red;
+        font-family: 'Yantramanav', sans-serif;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    .fas.fa-arrows-alt-v{
+        color: white;
+        opacity: 0.7;
+        font-size: 22px;
+    }
+    .expand{
+        position: relative;
+        z-index: 9999;
+        background:#151515;
+        height: 0%;
+        width: 100%;
+        overflow: hidden;
+        top: -1583px;
+    }
+}
+@media only screen and (max-width: 908px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 64px;
+        line-height: 4.5rem;
+    }
+    .image-info{
+        top: 380px;
+        overflow: hidden;
+        position: relative;
+    }
+    #scroll-link{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: white;
+        opacity: 0.7;
+        letter-spacing: 0.1rem;
+    }
+    .expander span{
+        color: white;
+        font-size: 14px;
+    }
+    .toggler div{
+        height: 2.5px;
+        margin-top:3px; 
+        border-bottom: 2px solid white;
+        border-top:none;
+        width: 22px;
+    }
+    .navbar-brand img{
+        width: 40px;
+        height: 40px;
+    }
+    .toggler-info{
+        display: none;
+    }
+    .toggler-content{
+        padding-top: 100px;
+    }
+    .expand{
+        position: relative;
+        z-index: 9999;
+        background:#151515;
+        height: 0%;
+        width: 100%;
+        overflow: hidden;
+        top: -1554px;
+    }
+    .toggler-header{
+        margin-top: 30px;
+        color: white;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 791px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 54px;
+        line-height: 4rem;
+    }
+    .image-info{
+        top: 400px;
+        overflow: hidden;
+        position: relative;
+    }
+    #image-link{
+        color: red;
+        font-family: 'Yantramanav', sans-serif;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    .fas.fa-arrows-alt-v{
+        color: white;
+        opacity: 0.7;
+        font-size: 20px;
+    }
+    .expand{
+        position: relative;
+        z-index: 9999;
+        background:#151515;
+        height: 0%;
+        width: 100%;
+        overflow: hidden;
+        top: -1537px;
+    }
+}
+@media only screen and (max-width: 675px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 44px;
+        line-height: 3.5rem;
+    }
+    .image-info{
+        top: 420px;
+        overflow: hidden;
+        position: relative;
+    }
+    .expand{
+        position: relative;
+        z-index: 9999;
+        background:#151515;
+        height: 0%;
+        width: 100%;
+        overflow: hidden;
+        top: -1521px;
+    }
+}
+@media only screen and (max-width: 559px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 39px;
+        line-height: 3rem;
+    }
+    .image-info{
+        top: 413.5px;
+        overflow: hidden;
+        position: relative;
+    }
+    .fas.fa-arrows-alt-v{
+        color: white;
+        opacity: 0.7;
+        font-size: 18px;
+    }
+    .expand{
+        position: relative;
+        z-index: 9999;
+        background:#151515;
+        height: 0%;
+        width: 100%;
+        overflow: hidden;
+        top: -1505px;
+    }
+}
+/* @media only screen and (max-width: 1200px) {
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 84px;
+        line-height: 5.5rem;
+    }
+  } */ 
+/* @media only screen and (max-width: 1142px) {
+    .outer{
+        background: url("https://madsparrow.me/emily/assets/images/2.jpg");
+        background-size: cover;
+        background-position-y:-130px;
+        top: -76px;
+        position: relative;
+        height: 625px;
+        z-index: 9;
+    }
+    #heading{
+        font-family: 'Yantramanav', sans-serif;
+        font-weight: 900;
+        color: white;
+        font-size: 84px;
+        line-height: 6rem;
+    }
   }
+
   @media only screen and (max-width: 908px) {
     .expand{
         position: relative;
@@ -205,4 +430,4 @@ body{
         overflow: hidden;
         position: relative;
     } 
-}
+} */

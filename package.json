@@ -1,0 +1,31 @@
+{
+  "name": "photo-portfolio",
+  "version": "1.0.0",
+  "description": "Photo portfolio app",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshirj21/photo-portfolio.git"
+  },
+  "author": "Rahul joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshirj21/photo-portfolio/issues"
+  },
+  "homepage": "https://github.com/joshirj21/photo-portfolio#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "animejs": "^3.1.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

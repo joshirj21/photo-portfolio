@@ -3,6 +3,7 @@ html{
 }
 body{
     height: 625px;
+    overflow: hidden;
 }
 .navbar{
     position: relative;

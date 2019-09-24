@@ -39,7 +39,7 @@ body{
     z-index: 999;
 }
 .outer{
-    background: url("https://madsparrow.me/emily/assets/images/2.jpg");
+    background: url("./assets/4.jpg");
     background-size: cover;
     background-position-y:bottom;
     top: -76px;
@@ -130,7 +130,7 @@ body{
 }
 @media only screen and (min-width: 1142px) {
     .outer{
-        background: url("https://madsparrow.me/emily/assets/images/2.jpg");
+        background: url("./assets/4.jpg");
         background-size: cover;
         background-position-y:-130px;
         top: -76px;

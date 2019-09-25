@@ -2,8 +2,8 @@ const path = require("path")
 
 module.exports = {
     entry: {
-        main: "./src/index.js",
-        vendor: "./src/vendor.js"
+        main: ["babel-polyfill", "./src/index.js"],
+        vendor: ["./src/vendor.js"]
     },
     module: {
         rules: [
@@ -19,6 +19,13 @@ module.exports = {
                         name: "[name].[hash].[ext]",
                         outputPath: "imgs"
                     }
+                }
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader'
                 }
             }
         ]

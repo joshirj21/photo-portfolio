@@ -1,5 +1,9 @@
 export const renderImages = (image) => {
     const element = document.querySelector(".outer");
-    // element.style.background = `url(${image.image_url})`
+    // const heading = document.querySelector("#heading")
+    element.style.background = `url(${image.image_url})`
+    // if (image.description) {
+    //     heading.style.textContent = image.description;
+    // }
 
 }

@@ -1,6 +1,6 @@
 import anime from '../../node_modules/animejs/lib/anime.es';
 
-export const run = () => {
+export const run = async () => {
     let togglerFlag = false;
     let running = false;
     var navbarToggler = document.querySelector(".expander,.expander *");

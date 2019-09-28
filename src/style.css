@@ -39,9 +39,9 @@ body{
     z-index: 999;
 }
 .outer{
-    background: url("./assets/4.jpg");
-    background-size: cover;
-    background-position-y:bottom;
+    background: url("https://images.unsplash.com/photo-1569586098165-3edd7212e4f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjkyNTMwfQ&fit=fill&fill=blur&w=1366&h=725");
+    background-size: 100%;
+    width: 100%;
     top: -76px;
     position: relative;
     height: 625px;
@@ -130,9 +130,9 @@ body{
 }
 @media only screen and (min-width: 1142px) {
     .outer{
-        background: url("./assets/4.jpg");
-        background-size: cover;
-        background-position-y:-130px;
+        background: url("https://images.unsplash.com/photo-1569586098165-3edd7212e4f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjkyNTMwfQ&fit=fill&fill=blur&w=1366&h=725");
+        background-size: 100%;
+        width: 100%;
         top: -76px;
         position: relative;
         height: 625px;

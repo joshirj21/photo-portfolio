@@ -5,6 +5,12 @@ body{
     height: 625px;
     overflow: hidden;
 }
+.far.fa-heart:visited, .far.fa-heart:link { 
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
 .navbar{
     position: relative;
     z-index: 99999;
@@ -254,6 +260,12 @@ body{
         margin-top: 30px;
         color: white;
         font-size: 24px;
+    }
+    .far.fa-heart:visited, .far.fa-heart:link { 
+        margin-right: 10px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
     }
 }
 @media only screen and (max-width: 791px) {
